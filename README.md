@@ -8,6 +8,7 @@
     {% assign lineval = line_item.quantity %}
   {% endif %}
 {% endfor %}
+<!-- 
 <div class="cart-quantity">
   <input type='button' value='-' class='qtyminus' field='addcart_{{ variantid.id }}' />
   <input type="number" name="updates[]" id="addcart_{{ variantid.id }}" class="quantity" value="{{lineval}}" />
@@ -16,3 +17,4 @@
 <div class="continue_shopping animated fadeInUp" id="text_{{ variantid.id }}" style="display: none;">
   <a href="javascript:void(0);" class="close cls_msg">Continue Shopping</a> or <a href="/cart">View Cart</a>
 </div>
+-->
